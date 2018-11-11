@@ -43,7 +43,7 @@ def copymy():
     newfilename = os.path.normpath(newfilename)
     shutil.copy(myname, newfilename)
     return newfilename
- if __name__ == "__main__":
+ if __name__ == "__mai__":
     [mk("dir_"+str(i)) for i in range(1, 10)]
     print("Создали каталоги")
     print(ls())
